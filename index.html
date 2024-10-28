@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video with Subtitles</title>
+  </head>
+  <body>
+    <video id="myVideo" controls width="800">
+      <source src="Untitled video - Made with Clipchamp.mp4" type="video/mp4" />
+      <track
+        label="Arabic"
+        kind="subtitles"
+        srclang="ar"
+        src="subt.vtt"
+        default
+      />
+    </video>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+
+    <script src="index.js"></script>
+  </body>
+</html>
